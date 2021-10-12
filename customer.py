@@ -2,9 +2,9 @@ import datetime
 
 class Customer():
     def __init__(self):
-        self.bikes = None
+        self.bikes = 0
         self.bill = 0
-        self.rentalTime = None
+        self.rentalTime = 0
 
     def requestBike(self):
         bikes = input("How many bikes would you like to rent?")
